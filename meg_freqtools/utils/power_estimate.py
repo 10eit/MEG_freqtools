@@ -1,6 +1,8 @@
 import os
 import numpy as np
 
+def
+
 def auto_cycle(freq_bins,duration):
     """
     freq_bins : list or numpy array
@@ -13,3 +15,6 @@ def auto_cycle(freq_bins,duration):
 
     cycle_array = np.zeros_like(freq_bins)
     cycle_array[cpoint + 1:] = freq_bins[cpoint + 1:] // 2
+
+def freq_window():
+    
